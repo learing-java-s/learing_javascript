@@ -2,14 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Learning JavaScript</title>
-    <meta name="author" content="M.NUR">
-    <meta name="description" content="JavaScript Assignments with Form Data to collect user input">
-    <meta name="keywords" content="JavaScript, HTML, Form, Data">
+    <title>First Assignment</title>
+    <meta name="author" content="Mark Mercer">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+
   <body>
-    <header><h1>Assignment Name</h1></header>
+    <header><h1>Landscape or Portrait Assignment</h1></header>
       <nav>
         <div>
           <ol>
@@ -24,22 +25,53 @@
         </div>
       </nav>
 
+      <section>
+
+        <form action="x.html" method="post" onsubmit="event.preventDefault";>
+        <!--Ensure this FORM doesn't work with PHP or other server side scripting languages-->
+        <p>&nbsp;</p>
+        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+        <!-- Non-breaking real space, adds real space to the webapge that is not elminiated by the browser (hard coded space)  -->
+        <p>
+          <label for="textfield">Number1:</label>
+          <input name="textfield1" type="text" id="textfield1">
+        </p>
+        <p>
+          <label for="textfield">Number2:</label>
+          <input name="textfield2" type="text" id="textfield2">
+        </p>
+
+        <!--Submit Button-->
+        <br><br>
+        <button type="button" onclick="main()">Submit</button>
+        <br>
+        <h3>The answer is:
+          <a id="">What is the Answer?!!!</a>
+        </h3>
+        <article></article>
+      </section>
+
+
       <aside><p></p></aside>
       <section><h3></h3><article><p></p></article></section>
 
-    <script src="../script/templatejs.js"></script>
+    <script src="../scripts/LandscapePortrait.js"></script>
 
   </body>
 
-</footer> cite = "https://www.peta.org/wp-content/uploads/2016/02/Goats-maximili-602x403.jpg"</footer>
-</-- Date accessed: 20210917-->
-<p><strong>Funy gout smilling on you face HAHAHAHAHAHAHAHAHA HAHAHAHAh hHAHAHAHA <strong></p>
-  <p><em> <a =" this imge is from someone on google imges. i no ide who is he if you wnat to know who is he look it up maaaan" </a>
-  </em>
-</p>
-<p>
-  & copy M.NUR
-</p>
-</footer>
-
+  <footer>
+    <blockquote cite="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
+    <!-- Date Accessed: 20210917 -->
+    <p><strong>Getting information off the Interent is like taking a dring from a firehose.</strong></p>
+    <p>
+      <em>
+        <a href="https://www.brainyquote.com/quotes/mitchell_kapor_163583">
+          Mitch Kapor
+        </a>
+      </em>
+    </p>
+    <p>
+      &copy Mark Mercer, powered by MercersKitchen in GitHub
+    </p>
+  </footer>
 </html>
